@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .label {
+    @apply flex flex-col text-big
+  }
+  .input {
+    @apply bg-primary text-light border-2 rounded-radius border-fourth-normal p-2 w-full
+  }
+}
